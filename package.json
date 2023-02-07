@@ -1,0 +1,28 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "an api for a social network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carrieky04/Social-Network-API.git"
+  },
+  "author": "Carrie Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carrieky04/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/carrieky04/Social-Network-API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  }
+}
